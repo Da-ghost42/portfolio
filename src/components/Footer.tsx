@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Mail } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,7 +11,6 @@ export function Footer() {
             <p className="text-muted-foreground mb-4">Feel free to reach out or follow my work.</p>
             <div className="flex gap-4">
               <a href="https://github.com/Da-ghost42" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-foreground transition-colors"><Github className="h-5 w-5" /></a>
-              <a href="https://linkedin.com/in/mohamed-boutuil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-foreground transition-colors"><Linkedin className="h-5 w-5" /></a>
               <a href="mailto:mboutuil@gmail.com" aria-label="Email" className="text-muted-foreground hover:text-foreground transition-colors"><Mail className="h-5 w-5" /></a>
             </div>
           </div>

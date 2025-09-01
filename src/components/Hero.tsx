@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
-import { Github, Linkedin, Mail, Download, ArrowDown } from "lucide-react";
+import { Github, Mail, Download, ArrowDown } from "lucide-react";
 
 export function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -36,11 +36,8 @@ export function Hero() {
             <Button variant="outline" onClick={() => scrollToSection('contact')}>Contact</Button>
           </div>
           <div className="flex items-center justify-center gap-4 pt-2">
-            <a href="" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="https://github.com/Da-ghost42" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-foreground transition-colors">
               <Github className="w-6 h-6" />
-            </a>
-            <a href="https://linkedin.com/in/mohamed-boutuil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-foreground transition-colors">
-              <Linkedin className="w-6 h-6" />
             </a>
             <a href="mailto:mboutuil@gmail.com" aria-label="Email" className="text-muted-foreground hover:text-foreground transition-colors">
               <Mail className="w-6 h-6" />
