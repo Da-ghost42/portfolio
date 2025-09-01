@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
 export default defineConfig({
-  // Set base for GitHub Pages (replace <USERNAME> with actual GitHub username if different repo name)
-  base: '/da-ghost42-portfolio/',
+  // Updated base for GitHub Pages actual repo name
+  base: '/portfolio/',
   plugins: [react()],
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],

@@ -22,17 +22,25 @@ npm run build
 Output in `build/`.
 
 ## Deploy (GitHub Pages)
-Ensure repository name: `da-ghost42-portfolio` and GitHub username `da-ghost42`.
+Repository name: `portfolio` | GitHub username: `da-ghost42`.
 ```bash
 npm run deploy
 ```
-This runs `vite build` then publishes `build/` to the `gh-pages` branch. A `404.html` copy is created for SPA routing fallback.
+Publishes `build/` to `gh-pages` branch (creates `404.html` for SPA fallback).
 
 Live URL:
-https://da-ghost42.github.io/da-ghost42-portfolio/
+https://da-ghost42.github.io/portfolio/
 
 ## Update Project Links
-Edit `src/components/Projects.tsx` and replace placeholder `https://github.com/your-repo/...` URLs with actual repository links.
+Edit `src/components/Projects.tsx` and replace placeholder `https://github.com/your-repo/...` URLs with:
+- https://github.com/Da-ghost42/ft_irc
+- https://github.com/Da-ghost42/ft_transcendence
+- https://github.com/Da-ghost42/inception
+- https://github.com/Da-ghost42/cub3D
+- https://github.com/Da-ghost42/minishell
+- https://github.com/Da-ghost42/netpractice (if public)
+- https://github.com/Da-ghost42/push_swap
+- https://github.com/Da-ghost42/fract-ol
 
 ## License
 MIT (add a LICENSE file if needed).
