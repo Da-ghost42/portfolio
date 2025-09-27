@@ -28,7 +28,8 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
             <Button asChild>
-              <a href="/Mohamed_Boutuil_CV.pdf" download>
+              {}
+              <a href="resume.pdf" download>
                 <Download className="mr-2 h-4 w-4" /> Download CV
               </a>
             </Button>
@@ -36,7 +37,8 @@ export function Hero() {
             <Button variant="outline" onClick={() => scrollToSection('contact')}>Contact</Button>
           </div>
           <div className="flex items-center justify-center gap-4 pt-2">
-            <a href="" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-foreground transition-colors">
+            {/* Fixed GitHub link */}
+            <a href="https://github.com/Da-ghost42" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-foreground transition-colors">
               <Github className="w-6 h-6" />
             </a>
             <a href="https://linkedin.com/in/mohamed-boutuil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-foreground transition-colors">
